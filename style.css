@@ -63,5 +63,5 @@ p {
     width: 750px;
     height: 770px;
     background-color: #434c5e;
-    display: inline-block; /* Add this property */
+    display: inline-block;
 }
