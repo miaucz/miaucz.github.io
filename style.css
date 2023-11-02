@@ -19,6 +19,12 @@ p {
     display: inline;
     padding: 15px;
     border-radius: 25%;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease;
+}
+.header img:hover {
+    transform: scale(1.10);
 }
 
 .header {
@@ -58,7 +64,7 @@ p {
     margin-left: 10px;
     text-align: center;
     width: 850px;
-    height: 210px;
+    height: 245px;
     background-color: #434c5e;
     display: inline-block; /* Add this property */
 }
@@ -78,7 +84,7 @@ p {
     margin-left: 10px;
     text-align: center;
     width: 750px;
-    height: 770px;
+    height: 805px;
     background-color: #434c5e;
     display: inline-block; /* Add this property */
 }
@@ -97,7 +103,6 @@ p {
   height: 40px;
   line-height: 20px;
   list-style: none;
-  margin: 0;
   outline: none;
   padding: 10px 16px;
   position: relative;
