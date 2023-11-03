@@ -33,6 +33,8 @@ p {
 }
 
 .link {
+    cursor: pointer;
+    z-index: 999;
     border-radius: 15px;
     margin-left: 10px;
     text-align: center;
@@ -56,7 +58,16 @@ p {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.content2 {
     margin: 0;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .container {
@@ -122,4 +133,3 @@ p {
 .button:hover {
     transform: scale(1.15); 
 }
-
