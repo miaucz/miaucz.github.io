@@ -34,6 +34,8 @@ p {
 
 .link {
     cursor: pointer;
+    border: 3px solid;
+    border-color: #434c5e;
     z-index: 999;
     border-radius: 15px;
     margin-left: 10px;
@@ -49,6 +51,8 @@ p {
 
 .link:hover {
     transform: scale(1.05);
+    border: 3px solid;
+    border-color: #aec6cf;
 }
 
 .content {
@@ -78,6 +82,16 @@ p {
     height: 245px;
     background-color: #434c5e;
     display: inline-block; /* Add this property */
+    border: 3px solid;
+    border-color: #434c5e;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease;
+}
+
+.container:hover {
+    border: 3px solid;
+    border-color: #aec6cf;
 }
 
 .container1 {
@@ -98,10 +112,22 @@ p {
     height: 805px;
     background-color: #434c5e;
     display: inline-block; /* Add this property */
+    border: 3px solid;
+    border-color: #434c5e;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease;
+}
+
+.container2:hover {
+    border: 3px solid;
+    border-color: #aec6cf;
 }
 
 .button {
   background-color: #5e81ac;
+  border: 2px solid;
+  border-color: #5e81ac;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -131,5 +157,7 @@ p {
 }
     
 .button:hover {
-    transform: scale(1.15); 
+    transform: scale(1.15);
+    border: 2px solid;
+    border-color: #aec6cf; 
 }
