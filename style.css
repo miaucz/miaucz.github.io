@@ -82,16 +82,6 @@ p {
     height: 245px;
     background-color: #434c5e;
     display: inline-block; /* Add this property */
-    border: 3px solid;
-    border-color: #434c5e;
-    -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.4s; 
-    -webkit-transition-timing-function: ease;
-}
-
-.container:hover {
-    border: 3px solid;
-    border-color: #aec6cf;
 }
 
 .container1 {
@@ -119,7 +109,12 @@ p {
     -webkit-transition-timing-function: ease;
 }
 
-.container2:hover {
+.container2 img {
+    border: 3px solid;
+    border-color: #434c5e;
+}
+
+.container2 img:hover {
     border: 3px solid;
     border-color: #aec6cf;
 }
