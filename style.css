@@ -104,14 +104,14 @@ p {
     display: inline-block; /* Add this property */
     border: 3px solid;
     border-color: #434c5e;
-    -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.4s; 
-    -webkit-transition-timing-function: ease;
 }
 
 .container2 img {
     border: 3px solid;
     border-color: #434c5e;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease;
 }
 
 .container2 img:hover {
