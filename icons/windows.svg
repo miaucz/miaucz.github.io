@@ -1,15 +1,42 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="181.000000pt" height="181.000000pt" viewBox="0 0 181.000000 181.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,181.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 1375 l0 -435 435 0 435 0 0 435 0 435 -435 0 -435 0 0 -435z"/>
-<path d="M940 1375 l0 -435 435 0 435 0 0 435 0 435 -435 0 -435 0 0 -435z"/>
-<path d="M0 435 l0 -435 435 0 435 0 0 435 0 435 -435 0 -435 0 0 -435z"/>
-<path d="M940 435 l0 -435 435 0 435 0 0 435 0 435 -435 0 -435 0 0 -435z"/>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 452.986 452.986" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:#010002;" d="M165.265,53.107L21.689,81.753v132.531l143.575-2.416V53.107 M431.297,245.583l-233.18-3.991
+			v164.822l233.18,46.571V245.583 M165.265,241.097l-143.575-2.438v132.509l143.575,28.668V241.097 M431.297,0l-233.18,46.528
+			v164.822l233.18-3.969V0"/>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
 </g>
 </svg>
