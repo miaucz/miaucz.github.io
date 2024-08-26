@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -23,22 +24,28 @@
         </span>
     </div>
     <div class="content">
-    <div class="container2" div style="position: relative; margin-top: 110px;">
+        <div onclick="document.location = './pc'" class="link">
             <span>
-                <h1>PC Specs</h1>
-             <p>Motherboard: ASUS ROG Strix B550-F Gaming</p><br>
-             <p>CPU: AMD Ryzen 5 5600</p><br>
-             <p>GPU: MSI GeForce RTX 3060 Ti Ventus 2X OC 8GB GDDR6X</p><br>
-             <p>RAM: Kingston Fury Renegade 2x8GB (16GB) 3600MHZ DDR4</p><br>
-             <p>PSU: Endorfy Supremo FM5 Gold 750W</p><br>
-             <p>SSD M.2: Lexar NM620 1TB</p><br>
-             <p>SSD: GOODRAM CX400 gen. 2 512GB</p><br>
-             <p>AIO: Endorfy Navis F240 ARGB</p><br>
-             <p>Case: Krux Leda</p><br>
-              <img src="hyfetch.png" style="border-radius:15px; position: relative; margin-top: 15px;" alt="">
-              <button class="button" style="margin-top: 5px; align-content: center;" onclick="document.location = './setup'">Powrót</button>
+                <img src="./icons/windows.svg" width="150" height="130" style="position: relative; top:10px; filter: brightness(0) invert(1);
+            " alt="">
+                <h1>PC</h1>
+                <p></p>
             </span>
         </div>
+        <span>
+            <div style="margin-top: 10px;" onclick="document.location = './peripherals'" class="link">
+                <img src="./icons/keyboard.png" width="120" height="120" style="margin-top: 10px; filter: brightness(0) invert(1);
+            " alt="">
+                <h1>Peryferia</h1>
+                <p></p>
+        </span>
+    </div>
+    </div>
 </body>
+<footer>
+    <div class="content2">
+        <button class="button" style="margin-top: 400px; margin-left: 10px; align-content: center;" onclick="document.location = '.'">Powrót</button>
+    </div>
+</footer>
 
 </html>
