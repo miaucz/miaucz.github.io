@@ -8,8 +8,9 @@ body
 {
     height: 100%;
     background: #262626;
-    background-image: url('https://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif');
+    background-image: url("nyan.gif");
     background-size: 57.25% 30%;
     background-position: 0% 50%;
     background-repeat: no-repeat;
 }
+
